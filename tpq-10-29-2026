@@ -1,0 +1,7 @@
+1.)Describe how this pattern could be abstracted and then applied to a useful real world scenario.
+Probably using a library situation, having a standard book class divided into genres. Abstraction (virtual class) can be used to display all non-available books by genre or available books within said genre.
+
+2.) Imagine you wanted to impose some restrictions on the ordering of your orchestra. E.G. the piano can only go immediately after the trumpet. 
+At what part in your program do you think it would be best to add code to apply these conditions?
+
+When adding to the list, if there isn't a trumpet, then it can't add it yet. Or have a set list of order of what is to come first and then compare it to order which it set around to the correct order.
